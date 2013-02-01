@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+
+    "name": "SimplrNote",
+    "description": "A simple notepad from your browser, not in your browser.",
+    "version": "0.1",
+    "offline_enabled": true,
+
+    "app": {
+
+        "offline_enabled": true,
+        "launch": {
+            "local_path": "app.html",
+            "container": "panel",
+            "height":600,
+            "width":600
+            }
+    },
+    "icons": {
+         "128": "128.png",
+         "48": "48.png",
+         "24": "24.png" 
+    }
+}
